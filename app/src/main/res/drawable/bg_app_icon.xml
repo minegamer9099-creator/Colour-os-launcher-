@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Location: app/src/main/res/drawable/bg_app_icon.xml (create the drawable folder if missing)
+
+     A rounded-square shape used as the icon's background.
+     - The white fill shows behind icons that have transparent corners.
+     - The ImageView clips the icon to this shape (see clipToOutline in item_app.xml),
+       which gives the soft, rounded "ColorOS" look.
+     - To make corners rounder or squarer, change the radius value. -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="#FFFFFF" />
+    <corners android:radius="16dp" />
+</shape>

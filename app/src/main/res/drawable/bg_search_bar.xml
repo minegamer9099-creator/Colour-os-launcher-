@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Location: app/src/main/res/drawable/bg_search_bar.xml (new file)
+     Rounded search field. The stroke colour here is only the default;
+     the Palette Engine replaces it with the wallpaper accent colour from code. -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="#1FFFFFFF" />
+    <stroke
+        android:width="2dp"
+        android:color="#99FFFFFF" />
+    <corners android:radius="24dp" />
+</shape>

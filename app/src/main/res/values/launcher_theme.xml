@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Location: app/src/main/res/values/launcher_theme.xml (new file)
+
+     After adding it, open AndroidManifest.xml and change MainActivity's theme to:
+         android:theme="@style/Theme.SimpleLauncher.Launcher"
+     (replace the old "@android:style/Theme.Material.Wallpaper.NoTitleBar" line) -->
+<resources>
+    <style name="Theme.SimpleLauncher.Launcher" parent="android:Theme.Material.Wallpaper.NoTitleBar">
+
+        <!-- Show the phone's wallpaper behind our window -->
+        <item name="android:windowShowWallpaper">true</item>
+
+        <!-- Our own window must be see-through, with NO background colour or image -->
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+
+        <!-- Let the wallpaper show behind the status bar and navigation bar too -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:enforceNavigationBarContrast">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+
+        <!-- Don't dim or flash when the window opens -->
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+</resources>

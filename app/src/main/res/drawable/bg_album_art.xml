@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Location: app/src/main/res/drawable/bg_album_art.xml
+     Dark rounded tile behind the album art (also the placeholder when there is no artwork). -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="#2C2C2E" />
+    <corners android:radius="12dp" />
+</shape>
